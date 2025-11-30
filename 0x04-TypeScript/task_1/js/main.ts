@@ -30,7 +30,6 @@ interface StudentClassConstructor {
   new (firstName: string, lastName: string): StudentClassInterface;
 }
 
-// Interface describing the class itself
 interface StudentClassInterface {
   firstName: string;
   lastName: string;
@@ -38,7 +37,6 @@ interface StudentClassInterface {
   displayName(): string;
 }
 
-// Class implementation
 class StudentClass implements StudentClassInterface {
   firstName: string;
   lastName: string;
